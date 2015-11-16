@@ -32,7 +32,7 @@ int main(int argc, char **argv) {
 	char * testing_data = "data/test_x.bin";
 	char * testing_label_data = "data/test_y.bin";
 	RNG rng(0);
-	int n_rows=28, n_cols=28, number_of_images = 60000, test_images = 10000;
+	int n_rows=32, n_cols=32, number_of_images = 60000, test_images = 10000;
 	//read_information(training_data, number_of_images, n_rows, n_cols);
 	//read_information(training_data, number_of_images, n_rows, n_cols);
 
