@@ -40,8 +40,8 @@ void read_data_cpp_match(char * input, char *output, Mat data, Mat label, int ba
 		}
 		// Create buffers for image data and correct labels
 		char *header = new char[2];
-		int n_rows = 28;
-		int n_cols = 28;
+		int n_rows = 32;
+		int n_cols = 32;
 		//f1.read(buffer,16);
 		//f2.read(buffer,8);
 
