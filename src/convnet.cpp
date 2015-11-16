@@ -26,7 +26,7 @@ Convnet::Convnet(int neuron_size, int layers, int filters, int output)
 	layersz = layers;
     n_filters = filters;
     n_output = output;
-    fvnum = filters * filters;
+    fvnum = 400;
     feature_init();
 }
 
